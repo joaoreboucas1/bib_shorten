@@ -7,3 +7,6 @@ For help, run the command
 ```
 	python3 bib_shorten.py --help
 ```
+
+## TODO
+The script breaks if the `author` field spans more than one line. Maybe try to merge lines if we see that the author field is not closed.
